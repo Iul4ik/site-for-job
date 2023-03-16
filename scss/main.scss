@@ -1,0 +1,42 @@
+@import 'scss/base/reset.scss';
+@import 'scss/base/slider.scss';
+@import 'scss/base/profile.scss';
+@import 'scss/base/header.scss';
+@import 'scss/layout/index.scss';
+@import 'scss/layout/article.scss';
+@import 'scss/layout/my-work.scss';
+@import 'scss/layout/login.scss';
+@import 'scss/layout/register.scss';
+@import 'scss/adaptibility/adaptibility.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+// class right 
+.right {
+  width: -webkit-fill-available;
+  background-color: #333;
+}
+
+.video {
+  & iframe {
+    height: 250px;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+#message-send {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  color: white;
+  
+  & h2 {
+    font-size: 40px;
+  }
+}
+

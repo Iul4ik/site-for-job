@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Profile personal -->
+  <div class="left">
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2"><span>Написать мне</span></button>
+    </div>
+  </div> 
+
+  <!-- Profile personal with phone -->
+  <div id="openProfile" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1 btn1-mobile"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2 btn2-mobile"><span>Написать мне</span></button>
+    </div>
+  </div>
+
+  <!-- Open menu Burger -->
+  <div id="openBurger" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeBurger()">&times;</a>
+    <ul class="burger-content">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="article.html">Статьи</a></li>
+      <li><a href="about.html">Обо мне</a></li>
+      <li><a href="my-work.html">Мои работы</a></li>
+      <li><a href="register.html">Профиль</a> </li>
+      <li><a href="#"><input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text"></a></li>
+    </ul>
+  </div> 
+
+  <div class="right">
+
+    <!-- header for mobile -->
+    <section id="header-mobile" class="header header-mobile">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a class="open-profile" onclick="openBurger()">Открыть Бургер</a></li>
+        </ul>
+      </div>
+    </section> 
+
+    <!-- header for computer -->
+    <section id="header" class="header">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="article.html">Статьи</a></li>
+          <li><a href="about.html">Обо мне</a></li>
+          <li><a href="my-work.html">Мои работы</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a href="register.html">Профиль</a> </li>
+        </ul>
+        <input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text">
+      </div>
+    </section> 
+
+    <!-- login -->
+    <section id="login">
+      <h2>Вход</h2>
+      <div class="container login-container">
+        <div class="login__form">
+            <form action="">
+              <input class="input-register" type="email" placeholder="Email" id="email"><br>
+              <input class="input-register" type="password" placeholder="Password" id="password"><br>
+              <button class="login custom-btn2 btn-2">Login</button>
+            </form>
+            <p class="error">Login or password isn't correct!</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<script src="js/main.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

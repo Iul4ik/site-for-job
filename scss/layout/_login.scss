@@ -1,0 +1,19 @@
+#login {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  color: white;
+  
+  & h2 {
+    font-size: 40px;
+  }
+}
+
+.login {
+  margin-top: 20px;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}

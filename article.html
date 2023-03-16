@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Profile personal -->
+  <div class="left">
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2"><span>Написать мне</span></button>
+    </div>
+  </div> 
+    
+  <!-- Profile personal with phone -->
+  <div id="openProfile" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1 btn1-mobile"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2 btn2-mobile"><span>Написать мне</span></button>
+    </div>
+  </div>
+  
+  <!-- Open menu Burger -->
+  <div id="openBurger" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeBurger()">&times;</a>
+    <ul class="burger-content">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="article.html">Статьи</a></li>
+      <li><a href="about.html">Обо мне</a></li>
+      <li><a href="my-work.html">Мои работы</a></li>
+      <li><a href="register.html">Профиль</a> </li>
+      <li><a href="#"><input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text"></a></li>
+    </ul>
+  </div>
+  
+  <div class="right">
+  
+    <!-- header for mobile -->
+    <section id="header-mobile" class="header header-mobile">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a class="open-profile" onclick="openBurger()">Открыть Бургер</a></li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- header for computer -->
+    <section id="header" class="header">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="article.html">Статьи</a></li>
+          <li><a href="about.html">Обо мне</a></li>
+          <li><a href="my-work.html">Мои работы</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a href="register.html">Профиль</a> </li>
+        </ul>
+        <input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text">
+      </div>
+    </section>  
+  
+    <!-- content 2 -->
+    <section id="content2" class="content">
+    <div class="">
+      <h3>Как создавать сайты легко</h3>
+      <div class="content-div">
+        <div class="content-div-left">
+          <span>21.06.2020</span>
+          <span class="circle"></span>
+          <a href="#">создание сайтов</a>
+        </div>
+        <div class="content-div-right">
+          <a href="#">читать</a>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Elementum volutpat orci turpis urna.
+        Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in
+        at tincidunt arcu egestas. Fusce arcu sodales lacinia eu
+        auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare
+        vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Elementum volutpat orci turpis urna. Et vestibulum, 
+        posuere tortor lacinia sit. Sagittis porttitor orci auctor in
+        at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor
+        nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa.
+        Egestas ornare vel volutpat.
+      </p>
+    </div>
+    <img class="banner" src="img/png/image.png" alt="">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</p>
+    <h3>Интересно почитать</h3>
+    <div class="new-info">
+      <div>
+        <div>
+          <a href="#">Как я сходил на FrontEnd Conf 2021</a><br>
+          <span>21.06.2020</span>
+        </div>
+        <div>
+          <a href="#">Как писать код быстро и  ...</a><br>
+          <span>21.06.2020</span>
+        </div>
+      </div>
+      <div>
+        <div>
+          <a href="#">Купил новый ноутбук за 150 000 руб</a><br>
+          <span>21.06.2020</span>
+        </div>
+        <div>
+          <a href="#">Купил новый ноутбук за 150 000 руб</a><br>
+          <span>21.06.2020</span>
+        </div>
+      </div>
+    </div>
+    </section> 
+  
+  
+    <section id="comments" class="content">
+      <h3>Обсуждение</h3>
+      <div class="form">
+        <input type="text"  id="comment-body" placeholder="Текст комментария">
+        <button id="comment-add">Отправить</button>
+      </div>
+      <div id="comment-field"></div>
+    </section> 
+  
+    <div class="comments-users">
+      <div class="info-user">
+        <div>
+          <img src="img/png/user2.png" alt="">
+        </div>
+        <div>
+          <p>Дмитрий Валак</p>
+          <p>1 неделю назад</p>
+        </div>
+      </div>    
+      <div class="comments-content">
+        <p>Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa.
+          Egestas ornare vel volutpat.
+        </p>
+      </div>    
+    </div> 
+
+    <div class="comments-users">
+      <div class="info-user">
+        <div>
+          <img src="img/png/Ellipse 2 (1).png" alt="">
+        </div>
+        <div>
+          <p>Джонни</p>
+          <p>1 неделю назад</p>
+        </div>
+      </div>    
+      <div class="comments-content">
+        <p>Et vestibulum, posuere tortor lacinia sit.
+          Sagittis porttitor orci auctor in at tincidunt arcu egestas.
+          Fusce arcu sodales lacinia eu auctor nunc nam id.
+          Diam sit sed volutpat massa.
+          Egestas ornare vel volutpat.
+        </p>
+      </div>    
+    </div>
+
+  </div>
+  
+  <!-- script for add coments -->
+  <script>
+    // add coments
+    let comments = [];
+    // loadComments();
+    
+    document.querySelector('#comment-add').onclick = function() {
+      event.preventDefault();
+      let commentBody = document.querySelector('#comment-body');
+    
+      let comment = {
+        body : commentBody.value,
+        time : Math.floor(Date.now()/1000) 
+      }
+    
+      // clear form
+      commentBody.value = '';
+      comments.push(comment);
+      saveComments();
+      showComments();
+    }
+    
+    function saveComments() {
+      localStorage.setItem('comments', JSON.stringify(comments));
+    }
+    
+    function loadComments() {
+      if (localStorage.getItem('comments')) comments = JSON.parse(localStorage.getItem('comments'));
+      showComments();
+    }
+    
+    function showComments() {
+      let commentField = document.querySelector('#comment-field');
+      let out = '';
+      comments.forEach(function(item) {
+        out += `<div  class="comments-users-static">
+        <div class="info-user-static">
+          <div>
+            <img class="img-comment-static" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 25px" src="img/png/eu.png">
+          </div>
+          <div>
+            <p>Catana Iulian</p>
+            <p style="margin-top: 15px; font-size: 15px;">${timeConverter(item.time)}</p>
+          </div>
+        </div>
+        <div class="comments-content">
+          <p style="margin-left: 50px; margin-top: 20px">${item.body}</p>
+        </div> 
+      </div>`
+    
+      });
+      commentField.innerHTML = out;
+    }
+    
+    function timeConverter(UNIX_timestamp) {
+      let a = new Date(UNIX_timestamp * 1000);  
+      let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      let year = a.getFullYear();
+      let month = months[a.getMonth()];
+      let date = a.getDate();
+      let hour = a.getHours();
+      let min = a.getMinutes();
+      let sec = a.getSeconds();
+      let time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec;
+      return time;
+    }
+  </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

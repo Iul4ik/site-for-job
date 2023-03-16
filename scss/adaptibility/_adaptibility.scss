@@ -1,0 +1,98 @@
+// adaptability
+@media (max-width: 374px) {
+  .left {
+    display: none;
+  }
+
+  .slider__controls {
+    display: flex;
+  }
+
+  .new-info {
+    flex-direction: column;
+  }
+
+  #header {
+    display: none;
+  }
+}
+
+@media (max-width: 424px) {
+  .left {
+    display: none;
+  }
+  .slider__controls {
+    display: flex;
+  }
+  .new-info {
+    flex-direction: column;
+  }
+
+  #header {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .left {
+    display: none;
+  }
+  .slider__controls {
+    display: flex;
+  }
+  .new-info {
+    flex-direction: column;
+  }
+
+  #header {
+    display: none;
+  }
+
+  #stories {
+    flex-direction: column;
+    text-align: center;
+
+    & .stories {
+      margin-top: 25px;
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .left {
+    display: none;
+  }
+
+  #stories {
+    flex-direction: column;
+    text-align: center;
+
+    & .stories {
+      margin-top: 25px;
+    }
+  }
+
+  #header-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .left {
+    display: none;
+  }
+
+  #header-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .open-profile {
+    display: none;
+  }
+  #header-mobile {
+    display: none;
+  }
+}

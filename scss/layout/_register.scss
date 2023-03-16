@@ -1,0 +1,96 @@
+#register {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  color: white;
+}
+
+#register h2 {
+  font-size: 50px;
+}
+
+.register__form {
+  display: table-caption;
+}
+
+.input-register {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #3F3F3F;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.register {
+  margin-top: 20px;
+  background-color: blue;
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#elastic {
+  display: block;
+}
+
+#elastic li.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error {
+  display: none;
+}
+
+.img__wrapper {
+  margin-right: 10%;
+  img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+      border-radius: 100px;
+  }
+}
+
+.choose-avatar {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-file span {
+  cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	border-radius: 4px;
+	background-color: #419152;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+  transition: background-color 0.2s;
+}
+
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}

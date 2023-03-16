@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Profile personal -->
+  <div class="left">
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2"><span>Написать мне</span></button>
+    </div>
+  </div> 
+
+  <!-- Profile personal with phone -->
+  <div id="openProfile" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <img class="background-image" src="img/png/background-user.png" alt="background-image">
+    <img class="img-user" src="img/png/eu.png" alt="background-user">
+    <div class="info-user">
+      <h2>Catana Iulian</h2>
+      <p>блог front-end разработчика</p>
+      <div class="img-link">
+        <a href="#"><img src="img/svg/instagram.svg" alt=""></a>
+        <a href="#"><img src="img/svg/vkontacte.svg" alt=""></a>
+        <a href="#"><img src="img/svg/pinterest.svg" alt=""></a>
+      </div>
+      <p>Front-end разработчик. Практик верстки сайтов.
+        Созданием сайтов занимаюсь с 2012 года. Работал
+        в нескольких ИТ компаниях и наработал более 10 000 часов
+        в создании сайтов различной сложности.
+      </p>
+    </div>
+    <div class="button">
+      <button class="custom-btn btn-1 btn1-mobile"><span>Мои работы</span></button>
+      <button class="custom-btn btn-2 btn2-mobile"><span>Написать мне</span></button>
+    </div>
+  </div>
+
+  <!-- Open menu Burger -->
+  <div id="openBurger" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeBurger()">&times;</a>
+    <ul class="burger-content">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="article.html">Статьи</a></li>
+      <li><a href="about.html">Обо мне</a></li>
+      <li><a href="my-work.html">Мои работы</a></li>
+      <li><a href="register.html">Профиль</a> </li>
+      <li><a href="#"><input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text"></a></li>
+    </ul>
+  </div>
+
+  <div class="right">
+    
+    <!-- header for mobile -->
+    <section id="header-mobile" class="header header-mobile">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a class="open-profile" onclick="openBurger()">Открыть Бургер</a></li>
+        </ul>
+      </div>
+    </section> 
+  
+    <!-- header for computer -->
+    <section id="header" class="header">
+      <div class="header-left">
+        <ul class="header-left-ul">
+          <li><a class="open-profile" onclick="openNav()" >Открыть Профиль</a></li>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="article.html">Статьи</a></li>
+          <li><a href="about.html">Обо мне</a></li>
+          <li><a href="my-work.html">Мои работы</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul class="header-right-ul">
+          <li><a href="register.html">Профиль</a> </li>
+        </ul>
+        <input class="search" onkeyup="myFunction()" placeholder="Поиск по блогу" id="myInput" type="text">
+      </div>
+    </section>   
+
+    <!-- slider -->
+    <div class="slider">
+      <div class="slider__slides">
+        <img src="img/png/luceafar1.jpg" alt="Slide 1">
+        <img src="img/png/luceafar2.jpg" alt="Slide 2">
+        <img src="img/png/luceafar3.jpg" alt="Slide 3">
+      </div>
+      <div class="slider__controls">
+        <button class="slider__prev">Previous</button>
+        <button class="slider__next">Next</button>
+      </div>
+    </div>
+  
+    <section id="content2" class="content">
+      <div class="">
+        <h3>Из общих качеств</h3>
+        <span style="display: block;">Очень воспитанный,комуникабельный(если привыкну к человеку)
+          немного стеснительный ,развита логика,могу адаптироваться очень быстро к ситуаций,месту или человеку и выбрать подходящий метод общения и правильно вести себя что бы понравитья человеку люблю знакомиться с необычными и интересными людьми,занимаюсь благотворительностью,
+        </span>
+        <h3>Из образования</h3>
+        <p>Учусь в Техническом Университете на факультете бизнесс и администрация(последнии год) Являюсь старостой группы что можно отнести к навыкам лидера
+          Учился в вдух школах фронт-энда: Первая - StepIt(незаконченное); Вторая - InterPortal(окончаная) с имеюшимся дипломом;</p>
+        <h3>Из хобби</h3>
+        <p>Обожаю музыку,занимался вокалом,владею навыками игры на гитаре и фортепьяно. В прошлом Актер театра и кино. был опыт как выступать в театре так и сниматься в сериалах и в роликах на Ютубе На данный момент забросил что бы посвитить себя фронт-энду.</p>
+        <h3>Снизу показанно мои видео</h3>
+        <div class="content-div">
+        </div>
+      </div>
+      
+
+         <div class="video">
+          <iframe src="https://www.youtube.com/embed/wVWA1QqUK8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/984QZHdR2r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/4MPoXRLYmgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/S5qg3WnP6t4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/WG_SbXsegaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/_T6DnFdYfpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div> 
+    </section>
+  </div>
+  
+  <!-- script for slider -->
+  <script>
+    const slides = document.querySelectorAll(".slider__slides img");
+    const prevBtn = document.querySelector(".slider__prev");
+    const nextBtn = document.querySelector(".slider__next");
+    let currentSlide = 0;
+
+    // Hide all slides except for the first one
+    slides.forEach((slide, index) => {
+      if (index !== currentSlide) {
+        slide.style.display = "none";
+      }
+    });
+
+    // Function to show the next slide
+    function showNextSlide() {
+      if (currentSlide === slides.length - 1) {
+        currentSlide = 0;
+      } else {
+        currentSlide++;
+      }
+      updateSlide();
+    }
+
+    // Function to show the previous slide
+    function showPrevSlide() {
+      if (currentSlide === 0) {
+        currentSlide = slides.length - 1;
+      } else {
+        currentSlide--;
+      }
+      updateSlide();
+    }
+
+    // Function to update the displayed slide
+    function updateSlide() {
+      slides.forEach((slide, index) => {
+        if (index === currentSlide) {
+          slide.style.display = "block";
+        } else {
+          slide.style.display = "none";
+        }
+      });
+    }
+
+    // Event listeners for the previous and next buttons
+    prevBtn.addEventListener("click", showPrevSlide);
+    nextBtn.addEventListener("click", showNextSlide);
+  </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

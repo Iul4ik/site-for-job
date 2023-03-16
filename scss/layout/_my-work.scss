@@ -1,0 +1,57 @@
+// my work
+#myWork {
+  margin-left: 5%;
+  margin-right: 5%;
+
+  & h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .first-work {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+    & .first-work-left {
+
+      & img {
+        width: 100%;
+        height: 500px;
+      }
+    }
+
+    & .first-work-right {
+      background-color: #202020;
+      padding-top: 25px;
+      padding-left: 30px;
+
+      & h3 {
+        color: #fff;
+        font-size: 20px;
+      }
+
+      & p {
+        color: #fff;
+        font-size: 15px;
+        padding-top: 50px;
+      }
+
+      & button {
+        margin-top: 100px;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        
+        & a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}

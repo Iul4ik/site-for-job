@@ -1,0 +1,61 @@
+// header
+
+.header {
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}  
+
+.header-left-ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  
+  & li {
+    padding-right: 30px;
+    list-style: none;
+  
+    & a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      
+      &:hover {
+        text-decoration: underline;
+        color: yellow;
+      }
+    }  
+  }
+}    
+
+.header-right {
+  display: flex;
+  align-items: center;  
+
+  & .header-right-ul {
+    margin-right: 20px;
+    
+    & li {
+      list-style: none;
+      
+      & a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 20px;
+
+          &:hover {
+            text-decoration: underline;
+            color: yellow;
+          }
+      }
+    }
+  }
+
+  & .search {
+    border: none;
+    background-color: #202020;
+    height: 45px;
+    color: #fff;
+  }
+}
